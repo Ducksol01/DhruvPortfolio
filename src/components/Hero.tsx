@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { ArrowDown, Github, Linkedin, Mail } from 'lucide-react';
-import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
+import ProfileAvatar from './ProfileAvatar';
 
 const Hero = () => {
   return (
@@ -13,11 +13,12 @@ const Hero = () => {
       
       <div className="container mx-auto px-4 z-10">
         <div className="max-w-4xl mx-auto text-center">
-          <div className="animate-fade-in opacity-0 mb-8">
-            <Avatar className="w-32 h-32 mx-auto border-4 border-primary">
-              <AvatarImage src="/lovable-uploads/061d022b-8e8f-43f3-818d-46108263df25.png" alt="Profile" />
-              <AvatarFallback>DEV</AvatarFallback>
-            </Avatar>
+          <div className="mb-8">
+            <ProfileAvatar 
+              imagePath="/lovable-uploads/061d022b-8e8f-43f3-818d-46108263df25.png"
+              altText="Profile"
+              fallbackText="DEV"
+            />
           </div>
           
           <div className="animate-fade-in opacity-0">
