@@ -1,13 +1,17 @@
+
 import React from 'react';
 import { ArrowDown, Github, Linkedin, Mail } from 'lucide-react';
 import ProfileAvatar from './ProfileAvatar';
+import AnimatedBackground from './AnimatedBackground';
 
 const Hero = () => {
   return (
     <section id="home" className="h-screen flex flex-col justify-center items-center relative overflow-hidden">
+      <AnimatedBackground />
+      
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-gradient-to-br from-background via-background/90 to-background/70"></div>
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[60vw] h-[60vw] rounded-full bg-primary/10 blur-3xl opacity-20"></div>
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[60vw] h-[60vw] rounded-full bg-primary/5 blur-3xl opacity-20"></div>
       </div>
       
       <div className="container mx-auto px-4 z-10">
