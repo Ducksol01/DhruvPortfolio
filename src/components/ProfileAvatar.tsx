@@ -7,19 +7,21 @@ type ProfileAvatarProps = {
   altText: string;
   fallbackText: string;
   size?: string;
+  className?: string;
 };
 
 const ProfileAvatar = ({
   imagePath,
   altText,
   fallbackText,
-  size = "w-32 h-32"
+  size = "w-36 h-36", // Increased size for better appearance
+  className = ""
 }: ProfileAvatarProps) => {
   return (
     <div className="animate-fade-in opacity-0">
-      <Avatar className={`${size} mx-auto border-4 border-primary`}>
-        <AvatarImage src={imagePath} alt={altText} />
-        <AvatarFallback>{fallbackText}</AvatarFallback>
+      <Avatar className={`${size} mx-auto border-4 border-primary shadow-lg ${className}`}>
+        <AvatarImage src={imagePath} alt={altText} className="object-cover" />
+        <AvatarFallback className="text-lg font-semibold">{fallbackText}</AvatarFallback>
       </Avatar>
     </div>
   );

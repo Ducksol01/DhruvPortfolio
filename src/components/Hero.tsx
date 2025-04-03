@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { ArrowDown, Github, Linkedin, Mail } from 'lucide-react';
 import ProfileAvatar from './ProfileAvatar';
@@ -13,11 +12,12 @@ const Hero = () => {
       
       <div className="container mx-auto px-4 z-10">
         <div className="max-w-4xl mx-auto text-center">
-          <div className="mb-8">
+          <div className="mb-10">
             <ProfileAvatar 
               imagePath="/lovable-uploads/061d022b-8e8f-43f3-818d-46108263df25.png"
               altText="Profile"
               fallbackText="DEV"
+              className="ring-4 ring-offset-4 ring-offset-background ring-primary/70"
             />
           </div>
           
