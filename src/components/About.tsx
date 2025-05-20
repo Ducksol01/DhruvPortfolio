@@ -7,38 +7,38 @@ const About = () => {
     {
       icon: <Layout className="h-6 w-6 text-primary" />,
       title: "Frontend Development",
-      description: "Creating responsive, accessible, and performant user interfaces with modern frameworks and design systems.",
-      technologies: ["React", "Vue.js", "TypeScript", "Tailwind CSS", "Next.js"]
+      description: "Creating responsive, interactive user interfaces with modern frameworks and design systems.",
+      technologies: ["React", "JavaScript", "TypeScript", "Tailwind CSS", "HTML/CSS"]
     },
     {
       icon: <Server className="h-6 w-6 text-primary" />,
       title: "Backend Development",
-      description: "Building robust, scalable APIs and services with a focus on security, performance, and maintainability.",
-      technologies: ["Node.js", "Express", "Python/Django", "ASP.NET Core"]
+      description: "Building robust, scalable APIs and services that power web applications.",
+      technologies: ["Node.js", "Express", "Python", "Flask", "RESTful APIs"]
     },
     {
       icon: <Database className="h-6 w-6 text-primary" />,
-      title: "Database Design",
-      description: "Designing efficient database schemas and writing optimized queries for both relational and NoSQL databases.",
-      technologies: ["PostgreSQL", "MongoDB", "MySQL", "Redis", "Firebase"]
-    },
-    {
-      icon: <Smartphone className="h-6 w-6 text-primary" />,
-      title: "Responsive Design",
-      description: "Creating user interfaces that work seamlessly across all devices and screen sizes.",
-      technologies: ["Mobile-first design", "Media queries", "Progressive enhancement"]
-    },
-    {
-      icon: <Code className="h-6 w-6 text-primary" />,
-      title: "DevOps & CI/CD",
-      description: "Setting up automated testing, deployment pipelines, and infrastructure management.",
-      technologies: ["Docker", "GitHub Actions", "AWS", "Vercel", "Netlify"]
+      title: "Database Management",
+      description: "Working with both SQL and NoSQL databases to store and manage application data efficiently.",
+      technologies: ["MongoDB", "MySQL", "Firebase", "Data Modeling"]
     },
     {
       icon: <Zap className="h-6 w-6 text-primary" />,
-      title: "Performance Optimization",
-      description: "Improving load times, rendering performance, and overall user experience.",
-      technologies: ["Lazy loading", "Code splitting", "Bundle analysis", "Caching strategies"]
+      title: "Artificial Intelligence",
+      description: "Implementing machine learning algorithms and AI solutions to solve complex problems.",
+      technologies: ["TensorFlow", "Python", "Natural Language Processing", "Computer Vision"]
+    },
+    {
+      icon: <Code className="h-6 w-6 text-primary" />,
+      title: "Machine Learning",
+      description: "Developing and training ML models for predictive analytics and pattern recognition.",
+      technologies: ["Scikit-learn", "Pandas", "Data Analysis", "Neural Networks"]
+    },
+    {
+      icon: <Smartphone className="h-6 w-6 text-primary" />,
+      title: "Full Stack Projects",
+      description: "Combining frontend, backend, and AI capabilities to create complete web applications.",
+      technologies: ["MERN Stack", "Git", "Deployment", "API Integration"]
     }
   ];
 
@@ -50,14 +50,13 @@ const About = () => {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 mb-16">
           <div className="lg:col-span-2">
             <p className="text-lg mb-6 text-foreground/90">
-              I'm a passionate full stack developer with over 5 years of experience building web applications for clients ranging from startups to large enterprises. 
-              My journey in development started with a curiosity about how websites work, which quickly turned into a career-long passion.
+              I'm a passionate developer specializing in both AI/ML and Full Stack Web Development. My educational background in BCA with specialization in Artificial Intelligence and Machine Learning has given me a strong foundation in creating innovative tech solutions that combine the power of AI with modern web technologies.
             </p>
             <p className="text-lg mb-6 text-foreground/90">
-              My approach to development focuses on writing clean, maintainable code that solves real problems. I believe in choosing the right tool for the job and staying adaptable in an ever-changing technology landscape.
+              My approach to development focuses on creating intuitive, user-friendly applications while leveraging data-driven insights to solve real-world problems. I'm particularly interested in building interactive web applications that incorporate machine learning capabilities.
             </p>
             <p className="text-lg text-foreground/90">
-              When I'm not coding, you can find me exploring new technologies, contributing to open source projects, or sharing knowledge with the developer community through blog posts and mentoring.
+              When I'm not coding, you can find me exploring emerging technologies in AI, participating in hackathons, and continually expanding my skill set through hands-on projects and continuous learning.
             </p>
           </div>
           
