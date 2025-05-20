@@ -65,18 +65,13 @@ const About = () => {
             <h3 className="text-xl font-bold mb-4 text-foreground">Education & Experience</h3>
             
             <div className="mb-6">
-              <h4 className="font-semibold text-foreground">Senior Full Stack Developer</h4>
-              <p className="text-foreground/70">Tech Innovations Inc. | 2020 - Present</p>
-            </div>
-            
-            <div className="mb-6">
-              <h4 className="font-semibold text-foreground">Web Developer</h4>
-              <p className="text-foreground/70">Digital Solutions Agency | 2017 - 2020</p>
+              <h4 className="font-semibold text-foreground">BCA (AI/ML)</h4>
+              <p className="text-foreground/70">Jaipur National University | 2020 - 2023</p>
             </div>
             
             <div>
-              <h4 className="font-semibold text-foreground">B.S. Computer Science</h4>
-              <p className="text-foreground/70">University of Technology | 2013 - 2017</p>
+              <h4 className="font-semibold text-foreground">Full Stack Web Developer Course</h4>
+              <p className="text-foreground/70">GeekforGeeks</p>
             </div>
           </div>
         </div>
